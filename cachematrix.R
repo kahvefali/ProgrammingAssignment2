@@ -1,3 +1,4 @@
+##makeCacheMatrix
 makeCacheMatrix <- function(x = numeric()) {
   i <- NULL
   set <- function(y) {
@@ -14,6 +15,7 @@ makeCacheMatrix <- function(x = numeric()) {
   
 }
 
+##cacheSolve
 cacheSolve <- function(x, ...) {
   i <- x$getInverse()
   if(!is.null(i)) {
